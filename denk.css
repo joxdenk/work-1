@@ -1,0 +1,36 @@
+*
+{
+  padding: 0;
+  margin: 0;
+}
+body
+{
+  background-image: url(real.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.menu{
+  text-align: center;
+  text-decoration: none;
+  background-color: orange;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: black;
+}
+.menu ul li{
+display: inline;
+margin: 15px;
+padding: 15px;
+}
+p{
+  color: black;
+}
+.stat{
+  background-color: dimgray;
+  color: white;
+}
+.active,.menu ul li:hover{
+  background-color: blue;
+  border-radius: 1px;
+}
